@@ -1,36 +1,81 @@
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Regular.woff2') format('woff2');
+  font-family: 'DMSans-Bold';
+  src: url('../fonts/DMSans-Bold.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'DMSans-BoldItalic';
+  src: url('../fonts/DMSans-BoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans-Italic';
+  src: url('../fonts/DMSans-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans-Regular';
+  src: url('../fonts/DMSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans-MediumItalic';
+  src: url('../fonts/DMSans-MediumItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans-Medium';
+  src: url('../fonts/DMSans-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  line-height: 1.75;
+}
+
 h1 {
-    font-family: 'Inter-Regular';
+    font-family: 'DMSans-Bold';
     font-size: 2rem;
     color: #5C5C5C;
   }
 
 h2 {
-    font-family: 'Inter-Regular';
+    font-family: 'DMSans-Bold';
     font-size: 1.5rem;
     color: #5C5C5C;
   } 
 
 h3 {
-    font-family: 'Inter-Regular';
+    font-family: 'DMSans-Regular';
     font-size: 1.125rem;
     color: #5C5C5C;
   }
 
 p {
-    font-family: 'Inter-Regular';
+    font-family: 'DMSans-Bold';
     font-size: 1em;
     color: #5C5C5C
 }
 
 ul {
-    font-family: 'Inter-Regular';
+    font-family: 'DMSans-Regular';
     color: #5C5C5C
 }
 
