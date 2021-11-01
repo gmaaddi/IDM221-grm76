@@ -48,35 +48,36 @@
 
 body {
   line-height: 1.75;
+  color: #5C5C5C;
+}
+
+ul {
+  font-family: 'DMSans-Regular';
 }
 
 h1 {
     font-family: 'DMSans-Bold';
     font-size: 2rem;
-    color: #5C5C5C;
   }
 
 h2 {
     font-family: 'DMSans-Bold';
     font-size: 1.5rem;
-    color: #5C5C5C;
   } 
 
 h3 {
     font-family: 'DMSans-Regular';
     font-size: 1.125rem;
-    color: #5C5C5C;
   }
 
-p {
+.readhere {
     font-family: 'DMSans-Bold';
     font-size: 1em;
-    color: #5C5C5C
 }
 
-ul {
+p {
     font-family: 'DMSans-Regular';
-    color: #5C5C5C
+    font-size: 1em;
 }
 
 .projectpreview1 {
