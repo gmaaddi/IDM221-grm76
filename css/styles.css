@@ -77,11 +77,6 @@ h3 {
     font-size: 1.125rem;
   }
 
-.readhere {
-    font-family: 'DMSans-Bold';
-    font-size: 1em;
-}
-
 p {
     font-family: 'DMSans-Regular';
     font-size: 1em;
@@ -93,12 +88,58 @@ p {
 
 .projectpreview1 {
   background-color: #F7D6CF;
+  border-radius: .625rem;
 }
 
 .projectpreview2 {
   background-color: #F4E6CB;
+  border-radius: .625rem;
 }
 
 .projectpreview3 {
   background-color: #CAECFF;
+  border-radius: .625rem;
+}
+
+.button1 {
+  font-family: 'DMSans-Bold';
+  font-size: 1em;
+  background-color: #F7D6CF;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 220px;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+.button2 {
+  font-family: 'DMSans-Bold';
+  font-size: 1em;
+  background-color: #F4E6CB;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 220px;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+.button3 {
+  font-family: 'DMSans-Bold';
+  font-size: 1em;
+  background-color: #CAECFF;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 220px;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+a:link {
+  text-decoration: none;
+  color: #5C5C5C;
+  font-family: 'DMSans-Bold';
+  font-size: 1em;
 }
