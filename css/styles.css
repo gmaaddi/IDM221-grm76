@@ -50,6 +50,8 @@ body {
   line-height: 1.75;
   color: #5C5C5C;
   max-width: 30rem;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 
 img {
@@ -58,27 +60,27 @@ img {
 }
 
 ul {
-  font-family: 'DMSans-Regular';
+  font-family: 'DMSans-Regular', sans-serif;
 }
 
 h1 {
-    font-family: 'DMSans-Bold';
+    font-family: 'DMSans-Bold', sans-serif;
     font-size: 2rem;
     text-align: center;
   }
 
 h2 {
-    font-family: 'DMSans-Bold';
+    font-family: 'DMSans-Bold', sans-serif;
     font-size: 1.5rem;
   } 
 
 h3 {
-    font-family: 'DMSans-Regular';
+    font-family: 'DMSans-Regular', sans-serif;
     font-size: 1.125rem;
   }
 
 p {
-    font-family: 'DMSans-Regular';
+    font-family: 'DMSans-Regular', sans-serif;
     font-size: 1em;
 }
 
@@ -104,6 +106,7 @@ p {
 .button1 {
   font-family: 'DMSans-Bold';
   font-size: 1em;
+  text-align: center;
   background-color: #F7D6CF;
   border: 1px solid transparent;
   border-radius: 10px;
@@ -116,6 +119,7 @@ p {
 .button2 {
   font-family: 'DMSans-Bold';
   font-size: 1em;
+  text-align: center;
   background-color: #F4E6CB;
   border: 1px solid transparent;
   border-radius: 10px;
@@ -128,6 +132,7 @@ p {
 .button3 {
   font-family: 'DMSans-Bold';
   font-size: 1em;
+  text-align: center;
   background-color: #CAECFF;
   border: 1px solid transparent;
   border-radius: 10px;
@@ -137,7 +142,7 @@ p {
   box-sizing: border-box;
 }
 
-a:link {
+a:link, a:visited {
   text-decoration: none;
   color: #5C5C5C;
   font-family: 'DMSans-Bold';
