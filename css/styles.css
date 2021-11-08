@@ -49,6 +49,12 @@
 body {
   line-height: 1.75;
   color: #5C5C5C;
+  max-width: 30rem;
+}
+
+img {
+  display: block;
+  margin: 2rem auto 0;
 }
 
 ul {
@@ -58,6 +64,7 @@ ul {
 h1 {
     font-family: 'DMSans-Bold';
     font-size: 2rem;
+    text-align: center;
   }
 
 h2 {
@@ -78,6 +85,10 @@ h3 {
 p {
     font-family: 'DMSans-Regular';
     font-size: 1em;
+}
+
+.header {
+  text-align: center;
 }
 
 .projectpreview1 {
