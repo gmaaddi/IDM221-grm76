@@ -143,7 +143,6 @@ p {
 }
 
 a:link, a:visited {
-  text-decoration: none;
   color: #5C5C5C;
   font-family: 'DMSans-Bold';
   font-size: 1em;
