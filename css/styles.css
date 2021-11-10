@@ -84,6 +84,14 @@ p {
     font-size: 1em;
 }
 
+.project {
+  margin-bottom: 5rem;
+}
+
+.description {
+  margin-top: 2rem;
+}
+
 .header {
   text-align: center;
 }
