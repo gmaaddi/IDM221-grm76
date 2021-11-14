@@ -46,12 +46,22 @@
   font-display: swap;
 }
 
-body {
-  line-height: 1.75;
+* {
   color: #5C5C5C;
   max-width: 30rem;
+}
+
+.content {
+  line-height: 1.75;
   margin-left: 1.5em;
   margin-right: 1.5em;
+}
+
+footer {
+  background-color: #f6f6f6;
+  padding: 0;
+  padding: 1.5em;
+  line-height: 1.75;
 }
 
 img {
