@@ -51,6 +51,11 @@
   max-width: 30rem;
 }
 
+header {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
 .content {
   line-height: 1.75;
   margin-left: 1.5em;
@@ -100,7 +105,7 @@ ul {
 h1 {
     font-family: 'DMSans-Bold', sans-serif;
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
   }
 
 h2 {
