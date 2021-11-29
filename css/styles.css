@@ -62,7 +62,40 @@ header {
   margin-right: 1.5em;
 }
 
-.navbar {
+nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  height: 80px;
+}
+
+nav img {
+  height: 70px;
+  position: absolute;
+  left: 1.5em;
+  vertical-align: middle;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  position: relative;
+  vertical-align: middle;
+}
+
+/* .navbar {
     list-style-type: none;
     display: inline-block;
     margin: 0;
@@ -84,7 +117,7 @@ header {
 
 .link3 {
   float: left;
-}
+} */
 
 footer {
   background-color: #f6f6f6;
