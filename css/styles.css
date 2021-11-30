@@ -48,7 +48,8 @@
 
 * {
   color: #5C5C5C;
-  max-width: 30rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 header {
@@ -119,7 +120,7 @@ ul {
 h1 {
     font-family: 'DMSans-Bold', sans-serif;
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
   }
 
 h2 {
@@ -143,25 +144,29 @@ p {
 
 .description {
   margin-top: 2rem;
+  text-align: center;
 }
 
-.header {
+header {
   text-align: center;
 }
 
 .projectpreview1 {
   background-color: #F7D6CF;
   border-radius: .625rem;
+  max-width: 350px;
 }
 
 .projectpreview2 {
   background-color: #F4E6CB;
   border-radius: .625rem;
+  max-width: 350px;
 }
 
 .projectpreview3 {
   background-color: #CAECFF;
   border-radius: .625rem;
+  max-width: 350px;
 }
 
 .button1 {
@@ -212,4 +217,5 @@ a:link, a:visited {
 .top {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
