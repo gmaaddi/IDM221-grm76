@@ -95,35 +95,16 @@ nav ul li a {
   vertical-align: middle;
 }
 
-/* .navbar {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    padding: 8px 16px;
-    width: auto;
-}
-
-.link1 {
-  float: left;
-  padding-right: 6rem;
-}
-
-.link2 {
-  float: left;
-  padding-right: 1rem;
-}
-
-.link3 {
-  float: left;
-} */
-
 footer {
+  margin-top: 3rem;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 80px;
   background-color: #f6f6f6;
-  padding: 0;
-  padding: 1.5em;
-  line-height: 1.75;
+  padding: 1em 0;
 }
 
 img, video {
