@@ -151,22 +151,40 @@ header {
   text-align: center;
 }
 
-.projectpreview1 {
+/* Project images in containers appear centered horizontally NOT vertically */
+.container1 {
   background-color: #F7D6CF;
   border-radius: .625rem;
   max-width: 350px;
+  padding: .25rem;
+  margin: 0px auto;
+  text-align: center;
+  display: block;
 }
 
-.projectpreview2 {
+.container2 {
   background-color: #F4E6CB;
   border-radius: .625rem;
   max-width: 350px;
+  padding: .25rem;
+  margin: 0px auto;
+  text-align: center;
+  display: block;
 }
 
-.projectpreview3 {
+.container3 {
   background-color: #CAECFF;
   border-radius: .625rem;
   max-width: 350px;
+  padding: .25rem;
+  margin: 0px auto;
+  text-align: center;
+  display: block;
+}
+
+.project_image {
+  display: inline-block;
+  margin: 0px auto;
 }
 
 .button1 {
