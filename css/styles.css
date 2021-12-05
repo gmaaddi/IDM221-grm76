@@ -55,6 +55,7 @@
 header {
   margin-bottom: 3em;
   margin-top: 3rem;
+  text-align: center;
 }
 
 .content {
@@ -108,7 +109,7 @@ footer {
   padding: 1em 0;
 }
 
-img, video {
+.social, video {
   display: block;
   margin: 2rem auto 0;
 }
@@ -147,44 +148,61 @@ p {
   text-align: center;
 }
 
-header {
-  text-align: center;
-}
-
-/* Project images in containers appear centered horizontally NOT vertically */
+/* Project images in containers (spacing solved!)*/
 .container1 {
   background-color: #F7D6CF;
   border-radius: .625rem;
   max-width: 350px;
-  padding: .25rem;
+  padding: 1rem;
   margin: 0px auto;
   text-align: center;
   display: block;
+  width: 300px;
+  height: 256.41px;
 }
 
 .container2 {
   background-color: #F4E6CB;
   border-radius: .625rem;
   max-width: 350px;
-  padding: .25rem;
+  padding: 1rem;
   margin: 0px auto;
   text-align: center;
   display: block;
+  width: 300px;
+  height: 216.09px;
 }
 
 .container3 {
   background-color: #CAECFF;
   border-radius: .625rem;
   max-width: 350px;
-  padding: .25rem;
+  padding: 1rem;
   margin: 0px auto;
   text-align: center;
   display: block;
+  height: 300px;
 }
 
-.project_image {
+.project1 {
   display: inline-block;
   margin: 0px auto;
+  width: 300px;
+  height: 256.41px;
+}
+
+.project2 {
+  display: inline-block;
+  margin: 0px auto;
+  width: 300px;
+  height: 216.09px;
+}
+
+.project3 {
+  display: inline-block;
+  margin: 0px auto;
+  width: 145.31px;
+  height: 300px;
 }
 
 .button1 {
