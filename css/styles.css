@@ -64,6 +64,7 @@ header {
   margin-right: 1.5em;
 }
 
+/* Nav = nav + nav img + nav ul + nav ul li + nav ul li a */
 nav {
   margin: 0;
   padding: 0;
@@ -97,6 +98,7 @@ nav ul li a {
   vertical-align: middle;
 }
 
+/* Case Study pages- option to go to home or prev/next case study */
 .pagenav {
   float: right;
   display: block;
@@ -116,6 +118,7 @@ nav ul li a {
   position: absolute;
 }
 
+/* Footer = footer + .column */
 footer {
   margin-bottom: 3rem;
   width: 100%;
@@ -272,6 +275,7 @@ a:link, a:visited {
   font-size: 1em;
 }
 
+/* Case study pages- top + subtopic + .bodyimg for centered images*/
 .top {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -282,12 +286,13 @@ a:link, a:visited {
   margin-bottom: 3rem;
 }
 
-.me {
-  margin-bottom: 3rem;
-}
-
 .bodyimg {
   text-align: center;
   margin: 0px auto;
   display: block;
+}
+
+/* About page paragraphs */
+.me {
+  margin-bottom: 3rem;
 }
