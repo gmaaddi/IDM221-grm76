@@ -286,3 +286,8 @@ a:link, a:visited {
   margin-bottom: 3rem;
 }
 
+.bodyimg {
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+}
