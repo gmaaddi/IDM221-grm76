@@ -97,8 +97,29 @@ nav ul li a {
   vertical-align: middle;
 }
 
+.pagenav {
+  float: right;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.back {
+  float: left;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.footer-special {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  position: absolute;
+}
+
 footer {
-  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  position: absolute;
 }
 
 .column {
@@ -264,3 +285,4 @@ a:link, a:visited {
 .me {
   margin-bottom: 3rem;
 }
+
